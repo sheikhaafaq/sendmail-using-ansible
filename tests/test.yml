@@ -1,23 +1,23 @@
 ---
 - hosts: localhost
   vars_prompt:
-          - name: "senderid"
-            prompt: "Enter your Email Id "
+          - name: " senderid "
+            prompt: " Enter your Email Id "
             private: no
-          - name: "senderpass"
-            prompt: "Enter Password "
+          - name: " senderpass "
+            prompt: " Enter Password "
             private: yes
-          - name: "recvid"
-            prompt: "Reciever [Email-id] "
+          - name: " recvid "
+            prompt: " Reciever [Email-id] "
             private: no
           - name: "recv"
-            prompt: "Reciver Name "
+            prompt: " Reciver Name "
             private: no
           - name: subject 
-            prompt: "Menion subject"
+            prompt: " Menion subject "
             private: no
           - name: msg
-            prompt: "Write a msg..  "
+            prompt: " Write a msg.. "
             private: no
   roles:
           - sendmail
