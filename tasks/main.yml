@@ -4,13 +4,13 @@
   mail:
           host: smtp.gmail.com
           port: 587
-          username: " {{ myusername }} "
-          password: " {{ mypassword }} "
-          to: " {{ Reciever_name }} <{{ Reciever_username }}> "
-          subject: " {{ sub }} "
+          username: "{{ myusername }}"
+          password: "{{ mypassword }}"
+          to: "{{ Reciever_name }}<{{ Reciever_username }}>"
+          subject: "{{ sub }}"
           body:
-                  - " {{ ansible_hostname }} "
-                  - " {{info}} "
+                  - "{{ ansible_hostname }}"
+                  - "{{info}}"
   delegate_to: localhost
 
 

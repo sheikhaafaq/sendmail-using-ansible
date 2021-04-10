@@ -1,8 +1,8 @@
 ---
 # vars file for sendmail
-myusername: " {{ senderid }} "
-mypassword: " {{ senderpass }} "
-Reciever_name: " {{ recv }} "
-Reciever_username: " {{ recvid }} "
-sub: " {{ subject }} "
-info: " {{ msg }} "
+myusername: "{{ senderid }}"
+mypassword: "{{ senderpass }}"
+Reciever_name: "{{ recv }}"
+Reciever_username: "{{ recvid }}"
+sub: "{{ subject }}"
+info: "{{ msg }}"
